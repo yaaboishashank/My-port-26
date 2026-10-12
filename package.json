@@ -1,0 +1,28 @@
+{
+  "name": "shashank-portpholio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "npm run sync:content && concurrently --kill-others \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:client": "npm run dev --workspace client",
+    "dev:server": "npm run dev --workspace server",
+    "sync:content": "node sync-content.mjs",
+    "build": "npm run sync:content && npm run build --workspace client",
+    "start": "npm run start --workspace server",
+    "test": "npm run test --workspace server && npm run test --workspace client",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "prettier": "^3.6.2"
+  }
+}

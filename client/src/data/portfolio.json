@@ -1,0 +1,350 @@
+{
+  "profile": {
+    "name": "Shashank Sharma",
+    "firstName": "Shashank",
+    "lastName": "Sharma",
+    "email": "shashanksharma00610@gmail.com",
+    "role": "Software Developer",
+    "location": "Agra, Uttar Pradesh",
+    "objective": "Full-Stack Developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js). Experienced in designing RESTful APIs, implementing secure authentication, and building responsive, user-focused interfaces. Seeking an entry-level Software Developer position to contribute to production-grade applications and grow within a collaborative engineering team.",
+    "educationNote": "Based in Agra. BCA graduate from Doon Business School, now pursuing an MCA in Cloud Computing at Manipal University Online."
+  },
+  "projects": [
+    {
+      "title": "HyperClip",
+      "category": "01 / VIDEO SHARING & TRANSCODING",
+      "intro": "A full-stack video-sharing application covering the journey from upload to playback. A separate Node.js worker uses FFmpeg to generate multiple video resolutions.",
+      "features": [
+        "Video uploads, playback, quality selection, and a creator dashboard built with React and Express.",
+        "JWT access and refresh tokens, bcrypt password hashing, and authorization checks for protected actions.",
+        "Server-side validation of request fields, file formats, and upload sizes, with centralized error handling.",
+        "REST APIs for videos, comments, likes, subscriptions, playlists, and watch history.",
+        "Cloudinary media storage and a separate Node.js / FFmpeg worker for multi-resolution video processing."
+      ],
+      "stack": ["React", "Node.js", "Express", "MongoDB", "Cloudinary", "FFmpeg"],
+      "live": "https://hyperclip-smart-video-streaming.onrender.com/",
+      "source": "https://github.com/yaaboishashank/HyperClip-Smart-Video-Streaming-Architecture-with-Dynamic-Quality-Transcoding",
+      "id": "hyperclip",
+      "slug": "hyperclip",
+      "summary": "A complete video workflow: upload, transcode, and watch. Built with an FFmpeg worker, quality selection, and a creator dashboard.",
+      "eyebrow": "FULL-STACK DEVELOPMENT",
+      "cardStack": ["React", "Node.js", "MongoDB", "Cloudinary", "FFmpeg"],
+      "proof": ["JWT AUTH", "VIDEO TRANSCODING", "CREATOR DASHBOARD"]
+    },
+    {
+      "title": "CampusVerse",
+      "category": "02 / VIRTUAL CAMPUS COLLABORATION",
+      "intro": "An interactive platform for students to create, discover, and join virtual campuses and collaborative study rooms.",
+      "features": [
+        "JWT authentication, user registration, campus management, and room CRUD operations.",
+        "Real-time room messaging and avatar movement synchronization with Socket.io.",
+        "REST APIs using Node.js, Express, and MongoDB for users, campuses, rooms, and messages.",
+        "Responsive React interfaces with dynamic light and dark themes.",
+        "Connected spaces that bring student conversations and collaboration into one shared experience."
+      ],
+      "stack": ["React", "Node.js", "Express", "MongoDB", "Socket.io", "JWT"],
+      "live": "https://campus-verse-your.vercel.app",
+      "source": "https://github.com/yaaboishashank/Interactive-Virtual-Campus---Student-Collaboration-Platform",
+      "id": "campus",
+      "slug": "campusverse",
+      "summary": "A virtual home for student collaboration. Create campuses, join study rooms, and connect through live chat and synchronized avatars.",
+      "eyebrow": "REAL-TIME COLLABORATION",
+      "cardStack": ["React", "Socket.io", "Express"],
+      "proof": ["LIVE MESSAGING", "ROOM MANAGEMENT", "THEME SUPPORT"]
+    }
+  ],
+  "skillGroups": [
+    {
+      "title": "01 / FRONTEND",
+      "items": [
+        {
+          "id": "React",
+          "label": "React",
+          "name": "React",
+          "description": "Reusable components, hooks, state management, and routing for interactive web applications.",
+          "usedIn": "HyperClip & CampusVerse",
+          "target": "hyperclip"
+        },
+        {
+          "id": "JavaScript",
+          "label": "JavaScript / ES6+",
+          "name": "JavaScript / ES6+",
+          "description": "Application logic, asynchronous programming, and event-driven interactions across the frontend and backend.",
+          "usedIn": "HyperClip & CampusVerse",
+          "target": "hyperclip"
+        },
+        {
+          "id": "TypeScript",
+          "label": "TypeScript",
+          "name": "TypeScript",
+          "description": "Types, interfaces, and safer application contracts \u2014 part of my frontend toolkit.",
+          "usedIn": "my development journey",
+          "target": "about"
+        },
+        {
+          "id": "Redux",
+          "label": "Redux Toolkit",
+          "name": "Redux Toolkit",
+          "description": "Centralized application state with slices and predictable updates for React interfaces.",
+          "usedIn": "my frontend approach",
+          "target": "about"
+        },
+        {
+          "id": "Tailwind",
+          "label": "Tailwind CSS",
+          "name": "Tailwind CSS",
+          "description": "Responsive layouts and consistent UI styling with utility classes.",
+          "usedIn": "my frontend approach",
+          "target": "about"
+        }
+      ]
+    },
+    {
+      "title": "02 / BACKEND & DATA",
+      "items": [
+        {
+          "id": "Node",
+          "label": "Node.js",
+          "name": "Node.js",
+          "description": "Server-side JavaScript for API logic, authentication workflows, and asynchronous operations.",
+          "usedIn": "HyperClip & CampusVerse",
+          "target": "hyperclip"
+        },
+        {
+          "id": "Express",
+          "label": "Express / REST APIs",
+          "name": "Express / REST APIs",
+          "description": "Routing, middleware, input validation, and error handling behind application features.",
+          "usedIn": "HyperClip & CampusVerse",
+          "target": "hyperclip"
+        },
+        {
+          "id": "MongoDB",
+          "label": "MongoDB / Mongoose",
+          "name": "MongoDB / Mongoose",
+          "description": "Schema design, queries, indexing, and aggregation pipelines for application data.",
+          "usedIn": "HyperClip & CampusVerse",
+          "target": "hyperclip"
+        },
+        {
+          "id": "Auth",
+          "label": "JWT / RBAC",
+          "name": "JWT / RBAC",
+          "description": "Access and refresh tokens, protected API routes, and role-based access controls.",
+          "usedIn": "HyperClip & CampusVerse",
+          "target": "hyperclip"
+        },
+        {
+          "id": "Socket",
+          "label": "Socket.io",
+          "name": "Socket.io",
+          "description": "Room-based live chat and synchronized avatar movement across authenticated connections.",
+          "usedIn": "CampusVerse",
+          "target": "campus"
+        },
+        {
+          "id": "Media",
+          "label": "FFmpeg / Cloudinary",
+          "name": "FFmpeg / Cloudinary",
+          "description": "A separate Node.js worker generates multiple video resolutions with FFmpeg, while Cloudinary stores media for playback.",
+          "usedIn": "HyperClip",
+          "target": "hyperclip"
+        },{
+  "id": "Redis",
+  "label": "Redis",
+  "name": "Redis",
+  "description": "Exploring in-memory caching and temporary data storage for backend applications.",
+  "usedIn": "my backend learning",
+  "target": "about"
+},{
+  "id": "OAuth",
+  "label": "OAuth 2.0",
+  "name": "OAuth",
+  "description": "Exploring OAuth 2.0 authorization flows for secure access to third-party APIs.",
+  "usedIn": "my backend learning",
+  "target": "about"
+}
+      ]
+    },
+    {
+      "title": "03 / TOOLS & DELIVERY",
+      "items": [
+        {
+          "id": "Git",
+          "label": "Git / GitHub",
+          "name": "Git / GitHub",
+          "description": "Version control, change tracking, and a repeatable workflow for developing and shipping projects.",
+          "usedIn": "selected work",
+          "target": "work"
+        },
+        {
+          "id": "Postman",
+          "label": "Postman",
+          "name": "Postman",
+          "description": "Testing authentication, API responses, protected endpoints, and multipart uploads.",
+          "usedIn": "HyperClip",
+          "target": "hyperclip"
+        },
+        {
+          "id": "Deploy",
+          "label": "GitHub Actions / Render",
+          "name": "GitHub Actions / Render",
+          "description": "Deployment tooling in my technical stack: automated workflows and application hosting.",
+          "usedIn": "my development journey",
+          "target": "journey"
+        }
+      ]
+    },
+    {
+      "title": "04 / GENERATIVE AI",
+      "items": [
+        {
+          "id": "LLM",
+          "label": "LLM APIs",
+          "name": "LLM APIs",
+          "description": "Exploring model integration, prompts, structured outputs, and tool calling in JavaScript applications.",
+          "usedIn": "my GenAI learning",
+          "target": "about"
+        },
+        {
+          "id": "LangChain",
+          "label": "LangChain",
+          "name": "LangChain",
+          "description": "Exploring the building blocks for language-model applications and connected AI workflows.",
+          "usedIn": "my GenAI learning",
+          "target": "about"
+        },
+        {
+          "id": "RAG",
+          "label": "RAG / Embeddings",
+          "name": "RAG / Embeddings",
+          "description": "Exploring embeddings, vector databases, and retrieval-augmented generation to ground model responses in useful context.",
+          "usedIn": "my GenAI learning",
+          "target": "about"
+        },
+        {
+  "id": "LangGraph",
+  "label": "LangGraph",
+  "name": "LangGraph",
+  "description": "Exploring stateful AI workflows and agent orchestration with LangGraph.",
+  "usedIn": "my GenAI learning",
+  "target": "about"
+},
+{
+  "id": "VectorDB",
+  "label": "Vector Databases",
+  "name": "Vector Databases",
+  "description": "Exploring embedding storage and similarity search for semantic retrieval and RAG applications.",
+  "usedIn": "my GenAI learning",
+  "target": "about"
+},{
+  "id": "PromptEngineering",
+  "label": "Prompt Engineering",
+  "name": "Prompt Engineering",
+  "description": "Exploring clear instructions, examples, and output formats to improve model responses.",
+  "usedIn": "my GenAI learning",
+  "target": "about"
+},
+{
+  "id": "AIAgents",
+  "label": "AI Agents",
+  "name": "AI Agents",
+  "description": "Exploring AI agents that use tools and follow multi-step workflows to complete tasks.",
+  "usedIn": "my GenAI learning",
+  "target": "about"
+},{
+  "id": "LLM",
+  "label": "LLM API",
+  "name": "LLM API Integration",
+  "description": "Exploring language-model API integration in JavaScript applications.",
+  "usedIn": "my GenAI learning",
+  "target": "about"
+}
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "description": "Professional connections",
+      "handle": "linkedin.com/in/shashank-sharma",
+      "url": "https://www.linkedin.com/in/shashank-sharma-2a6ba724a/"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "description": "Code, projects & experiments",
+      "handle": "@yaaboishashank",
+      "url": "https://github.com/yaaboishashank"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "description": "A little beyond the screen",
+      "handle": "shashank__sharma_0610_",
+      "url": "https://www.instagram.com/shashank__sharma_0610_/"  
+    },
+    {
+      "id": "x",
+      "name": "Twitter / X",
+      "description": "Ideas & conversations",
+      "handle": "@yaaboishashank",
+      "url": "https://x.com/ShashankSh62132"
+    }
+  ],
+  "education": [
+    {
+      "label": "01 / POSTGRADUATE",
+      "title": "MCA \u00b7 Cloud Computing",
+      "institution": "Manipal University Online",
+      "status": "ENROLLED / JAIPUR"
+    },
+    {
+      "label": "02 / PRACTICAL LEARNING",
+      "title": "Full-Stack Development \u00b7 KODR",
+      "institution": "Sheryians Coding School",
+      "status": "MERN / GENAI / AUTHENTICATION"
+    },
+    {
+      "label": "03 / UNDERGRADUATE",
+      "title": "Bachelor of Computer Applications",
+      "institution": "Doon Business School",
+      "status": "COMPLETED / DEHRADUN"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "react",
+      "label": "React"
+    },
+    {
+      "id": "javascript",
+      "label": "JavaScript"
+    },
+    {
+      "id": "typescript",
+      "label": "TypeScript"
+    },
+    {
+      "id": "nodedotjs",
+      "label": "Node.js"
+    },
+    {
+      "id": "express",
+      "label": "Express"
+    },
+    {
+      "id": "mongodb",
+      "label": "MongoDB"
+    },
+    {
+      "id": "tailwindcss",
+      "label": "Tailwind CSS"
+    },
+    {
+      "id": "git",
+      "label": "Git"
+    }
+  ]
+}
